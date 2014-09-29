@@ -1,0 +1,7 @@
+﻿This is a spin-off of another project of mine. It is most probably less powerful than some other projects on GitHub e.g. some ports of Google's phone number library to PHP, but I prefer to understand how my code works.
+
+There is not much documentation (yet). Everything is stored in my head. This might change one day if I see the necessity.
+
+This is how you could help:
+ - provide information about your country's national phone number writing conventions
+ - provide a list of your country's area code (if there are any).
