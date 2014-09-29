@@ -1,3 +1,9 @@
+# Testing and maintenance files
+backup.sql
+insert.sql
+test.php
+test.txt
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
