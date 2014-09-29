@@ -66,7 +66,7 @@
 								$this -> country = $cc;
 								$numberFrag = substr($numberFrag, strlen($cc));
 							} else {
-								throw PhoneNumberException('Unknown country code in ' . $number . ' after prefix ' . $pref . '.');
+								throw new PhoneNumberException('Unknown country code in ' . $number . ' after prefix ' . $pref . '.');
 								break;
 							}
 						case 'nat':
