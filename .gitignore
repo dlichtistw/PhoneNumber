@@ -3,6 +3,7 @@ backup.sql
 insert.sql
 test.php
 test.txt
+*.bak
 
 # Windows image file caches
 Thumbs.db
