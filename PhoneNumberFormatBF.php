@@ -12,10 +12,10 @@
 		protected static $natFormat = 'naa.. ss..';
 		
 		public function getIntl ($number) {
-			echo $this -> context -> intlPref . $number -> country . ' ' . static::makePairs($number -> area) . ' ' . static::makePairs($number -> subscr);
+			return $this -> context -> intlPref . $number -> country . ' ' . static::makePairs($number -> area) . ' ' . static::makePairs($number -> subscr);
 		}
 		public function getNat ($number) {
-			echo $this -> context -> natPref . static::makePairs($number -> area) . ' ' . static::makePairs($number -> subscr);
+			return $this -> context -> natPref . static::makePairs($number -> area) . ' ' . static::makePairs($number -> subscr);
 		}
 	}
 ?>

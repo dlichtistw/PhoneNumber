@@ -111,9 +111,9 @@
 			$r = '';
 			$r .= '+' . $this -> country;
 			if (!empty($this -> area)) {
-				$r .= ' ' . $this -> area;
+				$r .= $this -> area;
 			}
-			$r .= ' ' . $this -> subscr;
+			$r .= $this -> subscr;
 			
 			return $r;
 		}
